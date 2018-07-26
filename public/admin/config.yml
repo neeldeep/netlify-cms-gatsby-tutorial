@@ -1,0 +1,24 @@
+backend:
+  name: netlify-cms-gatsby-tutorial
+
+media_folder: static/assets
+
+collections:
+  - name: blog
+    label: Blog
+    folder: blog
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: body, label: Content, widget: markdown }
+  - name: blog_D
+    label: Blog Dallas
+    folder: blog/Dallas
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: body, label: Content, widget: markdown }
