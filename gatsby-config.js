@@ -5,9 +5,16 @@ module.exports = {
     {
     resolve: `gatsby-source-filesystem`,
     options: {
-      path: `${__dirname}/blog`,
-      name: "markdown-pages",
+      path: `${__dirname}/NYC`,
+      name: "nyc-markdown-pages",
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/Dallas`,
+        name: "dallas-markdown-pages",
+        },
+      },
   ],
 }

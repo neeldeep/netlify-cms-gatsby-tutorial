@@ -1,12 +1,13 @@
 backend:
-  name: netlify-cms-gatsby-tutorial
+  name: github
+  repo: neeldeep/netlify-cms-gatsby-tutorial
 
 media_folder: static/assets
 
 collections:
   - name: blog
-    label: Blog
-    folder: blog
+    label: 'NYC: Blog'
+    folder: NYC
     create: true
     fields:
       - { name: path, label: Path }
@@ -14,8 +15,8 @@ collections:
       - { name: title, label: Title }
       - { name: body, label: Content, widget: markdown }
   - name: blog_D
-    label: Blog Dallas
-    folder: blog/Dallas
+    label: 'Dallas: Blog'
+    folder: Dallas
     create: true
     fields:
       - { name: path, label: Path }

@@ -1,0 +1,749 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "layout": null,
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/roy/Desktop/build/sample1/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "updatedAt": 1532614996302,
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/roy/Desktop/build/sample1/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2ca279e14d8da2a35d2844cfc4406fc3",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/Users/roy/Desktop/build/sample1/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "id": "Plugin component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "pluginFilepath": "/Users/roy/Desktop/build/sample1/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "54490f41ef41c111ef0923346e8d2f3c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/roy/Desktop/build/sample1/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "pluginFilepath": "/Users/roy/Desktop/build/sample1/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "423fef854514083e47138bb44a15f164",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/roy/Desktop/build/sample1/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "pluginFilepath": "/Users/roy/Desktop/build/sample1/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bb96be0268747ac6ab2aa28e778be580",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/roy/Desktop/build/sample1/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "pluginFilepath": "/Users/roy/Desktop/build/sample1/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "07d628e9bae5aec2f7e14be2a33b3b1b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/roy/Desktop/build/sample1/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "pluginFilepath": "/Users/roy/Desktop/build/sample1/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "358f626abdd3ea27ba497b3787a17c11",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/roy/Desktop/build/sample1/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "pluginFilepath": "/Users/roy/Desktop/build/sample1/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "501c55d0cbe974c4ee4f068343eaaf68",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-netlify-cms": {
+      "resolve": "/Users/roy/Desktop/build/sample1/node_modules/gatsby-plugin-netlify-cms",
+      "id": "Plugin gatsby-plugin-netlify-cms",
+      "name": "gatsby-plugin-netlify-cms",
+      "version": "1.0.1",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "pluginFilepath": "/Users/roy/Desktop/build/sample1/node_modules/gatsby-plugin-netlify-cms",
+      "packageJson": {
+        "name": "gatsby-plugin-netlify-cms",
+        "description": "A Gatsby plugin which generates the Netlify CMS single page app",
+        "version": "1.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "netlify",
+          "netlify-cms"
+        ],
+        "author": {
+          "name": "Shawn Erquhart",
+          "email": "shawn@erquh.art"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "html-webpack-include-assets-plugin",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "html-webpack-plugin",
+            "version": "^2.30.1"
+          },
+          {
+            "name": "netlify-cms",
+            "version": "^1.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.3"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b767489896c103364b22e6c08990a216",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/roy/Desktop/build/sample1/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.28",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "pluginFilepath": "/Users/roy/Desktop/build/sample1/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.28",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b83838f70641854b34375b7668ab1bb9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/roy/Desktop/build/sample1/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.11",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/roy/Desktop/build/sample1/NYC",
+        "name": "markdown-pages"
+      },
+      "nodeAPIs": [
+        "sourceNodes"
+      ],
+      "pluginFilepath": "/Users/roy/Desktop/build/sample1/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.11",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1776df7aa5ed085d05568ea2e985f204",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/roy/Desktop/build/sample1",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "fad6d85a350e0460f46854916a8f3135",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "pluginFilepath": "/Users/roy/Desktop/build/sample1",
+      "packageJson": {
+        "name": "gatsby-starter-hello-world",
+        "description": "Gatsby hello world starter",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.153"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.34"
+          },
+          {
+            "name": "gatsby-plugin-netlify-cms",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.11"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.28"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bff34768b264fa95fbc799d8657e7556",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {},
+      "port": "9330",
+      "host": "localhost",
+      "buildTime": "2018-07-26T14:22:12.121Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "da27ddb2f17e991dd8419433ebe22ae5",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/roy/Desktop/build/sample1/NYC absPath of file": {
+      "id": "/Users/roy/Desktop/build/sample1/NYC absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2713ce92ff9b3dda23c9423ec1a5c73c",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown-pages",
+      "absolutePath": "/Users/roy/Desktop/build/sample1/NYC",
+      "relativePath": "",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-07-26T14:20:29.471Z",
+      "accessTime": "2018-07-26T14:22:15.133Z",
+      "changeTime": "2018-07-26T14:20:29.471Z",
+      "birthTime": "2018-07-26T14:20:19.828Z",
+      "root": "/",
+      "dir": "/Users/roy/Desktop/build/sample1",
+      "base": "NYC",
+      "ext": "",
+      "name": "NYC",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8618845377,
+      "blocks": 0,
+      "atimeMs": 1532614935132.8523,
+      "mtimeMs": 1532614829470.7952,
+      "ctimeMs": 1532614829470.7952,
+      "birthtimeMs": 1532614819828.2686,
+      "atime": "2018-07-26T14:22:15.133Z",
+      "mtime": "2018-07-26T14:20:29.471Z",
+      "ctime": "2018-07-26T14:20:29.471Z",
+      "birthtime": "2018-07-26T14:20:19.828Z"
+    },
+    "/Users/roy/Desktop/build/sample1/NYC/testing-my-new-blog.md absPath of file": {
+      "id": "/Users/roy/Desktop/build/sample1/NYC/testing-my-new-blog.md absPath of file",
+      "children": [
+        "/Users/roy/Desktop/build/sample1/NYC/testing-my-new-blog.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "24e2bbe3b2ebf161f2f0d395458b9a49",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "markdown-pages",
+      "absolutePath": "/Users/roy/Desktop/build/sample1/NYC/testing-my-new-blog.md",
+      "relativePath": "testing-my-new-blog.md",
+      "extension": "md",
+      "size": 154,
+      "prettySize": "154 B",
+      "modifiedTime": "2018-07-26T14:20:29.471Z",
+      "accessTime": "2018-07-26T14:20:30.919Z",
+      "changeTime": "2018-07-26T14:20:29.471Z",
+      "birthTime": "2018-07-26T03:15:27.376Z",
+      "root": "/",
+      "dir": "/Users/roy/Desktop/build/sample1/NYC",
+      "base": "testing-my-new-blog.md",
+      "ext": ".md",
+      "name": "testing-my-new-blog",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8618619334,
+      "blocks": 8,
+      "atimeMs": 1532614830918.9514,
+      "mtimeMs": 1532614829471,
+      "ctimeMs": 1532614829471.2349,
+      "birthtimeMs": 1532574927376.4795,
+      "atime": "2018-07-26T14:20:30.919Z",
+      "mtime": "2018-07-26T14:20:29.471Z",
+      "ctime": "2018-07-26T14:20:29.471Z",
+      "birthtime": "2018-07-26T03:15:27.376Z"
+    },
+    "/Users/roy/Desktop/build/sample1/NYC/testing-my-new-blog.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/roy/Desktop/build/sample1/NYC/testing-my-new-blog.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/roy/Desktop/build/sample1/NYC/testing-my-new-blog.md absPath of file",
+      "internal": {
+        "content": "---\npath: test-me\ndate: 2018-01-15T05:04:22.682Z\ntitle: Testing my new blog!\n---\nFir, maple, spruce, red wood, oak, these are a few of my favorite trees.\n",
+        "contentDigest": "1d1fd185154b76dbe094b73eb18e302e",
+        "type": "MarkdownRemark",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Testing my new blog!",
+        "path": "test-me",
+        "date": "2018-01-15T05:04:22.682Z",
+        "_PARENT": "/Users/roy/Desktop/build/sample1/NYC/testing-my-new-blog.md absPath of file",
+        "parent": "/Users/roy/Desktop/build/sample1/NYC/testing-my-new-blog.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/roy/Desktop/build/sample1/NYC/testing-my-new-blog.md"
+    },
+    "SitePage /test-me": {
+      "layout": null,
+      "jsonName": "test-me.json",
+      "internalComponentName": "ComponentTestMe",
+      "path": "/test-me",
+      "component": "/Users/roy/Desktop/build/sample1/src/templates/blogTemplate.js",
+      "componentChunkName": "component---src-templates-blog-template-js",
+      "context": {
+        "path": "test-me"
+      },
+      "updatedAt": 1532614996309,
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/roy/Desktop/build/sample1/src/templates/blogTemplate.js",
+      "id": "SitePage /test-me",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f6262ae8271781e10cfd7c772f1cd5bd",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": null,
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/roy/Desktop/build/sample1/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "updatedAt": 1532614935613,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/roy/Desktop/build/sample1/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "31a78c7446b8189a7dbea795ebf18938",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "7b9cd4cc9680dedf741b522cdb0a0c41"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "/Users/roy/Desktop/build/sample1/NYC/testing-my-new-blog.md absPath of file >>> MarkdownRemark": [
+        "test-me"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        "/"
+      ],
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
+  }
+}
